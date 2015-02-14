@@ -1,0 +1,138 @@
+body {  
+    background: white;
+    color: black;
+    font-size:18px;
+    margin:0;
+}
+td.fondo_raya_vertical {
+    background-image: url("http://www.univalle.edu.co/imagenes/portada/palo_gris_vertical.gif");
+}
+a:link {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #cc3300;
+    background-color: inherit;
+    text-decoration: none;
+}
+a:visited {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #cc6666;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #660000;
+    background-color: inherit;
+    text-decoration: underline;
+}
+
+.contenedor {
+	margin:0 auto;
+	width:800px;
+	text-align:center;
+}
+span /*Este es para el texto de las preguntas y opciones*/
+{
+	color:black;
+
+}
+
+
+
+/* ESTILOS PARA EL PIE DE PAGINA*/
+
+.footer-icon {
+background-image:url(http://www.univalle.edu.co/templates/t3_bs3_blank/images/home-social-icons.png);
+display:inline-block;
+height:53px;
+width:54px;
+}
+
+.footer-icon.facebook {
+width:54px;
+height:53px;
+background-position:-10px -209px;
+}
+
+.footer-icon.youtube {
+width:54px;
+height:53px;
+background-position:-10px -146px;
+}
+
+.footer-icon.twitter {
+width:54px;
+height:55px;
+background-position:-10px -81px;
+}
+
+.home-contacto .nombre-contacto h5 {
+text-transform:uppercase;
+margin:12px 0 0;
+}
+
+.home-contacto .address h5,.pbx h5 {
+margin:12px 0 0;
+}
+
+.home-contacto .nombre-contacto,.address,.pbx {
+text-align:left;
+margin-left:30px!important;
+}
+
+.home-contacto .footer-logo,.home-contacto .nombre-contacto,.home-contacto .address,.home-contacto .pbx,.home-contacto .social,.home-contacto .institucional,.home-contacto .facultades,.home-contacto .sedes,.home-contacto .investigacion,.home-contacto .internacionalizacion,.home-contacto .servicios {
+display:inline-block;
+vertical-align:top;
+text-align:left;
+margin:5px;
+}
+
+.t3-footer {
+border-top:1px solid #eee;
+background:#f8f8f8;
+color:#555;
+}
+
+.t3-footer small {
+display:block;
+font-size:100%;
+}
+
+.container:before,.container:after,.row:before,.row:after,.form-horizontal .form-group:before,.form-horizontal .form-group:after,.form-horizontal .control-group:before,.form-horizontal .control-group:after,.form-actions:before,.form-actions:after,.btn-toolbar:before,.btn-toolbar:after,.btn-group-vertical>.btn-group:before,.btn-group-vertical>.btn-group:after,.nav:before,.nav:after,.navbar:before,.navbar:after,.navbar-header:before,.navbar-header:after,.navbar-collapse:before,.navbar-collapse:after,.pager:before,.pager:after,.panel-body:before,.panel-body:after,.modal-footer:before,.modal-footer:after,.clearfix:before,.clearfix:after,.pagination:before,.pagination:after,.module-ct:before,.module-ct:after,#searchForm:before,#searchForm:after,.category-item:before,.category-item:after,.newsfeed-category .category li:before,.newsfeed .category li:before,.newsfeed-category .category li:after,.newsfeed .category li:after,.page-subheader:before,.page-subheader:after,.head-search:before,.head-search:after,.t3-footer:before,.t3-footer:after,.t3-footnav:before,.t3-footnav:after,.t3-copyright:before,.t3-copyright:after,.poweredby:before,.poweredby:after,.t3-megamenu .mega-inner:before,.t3-megamenu .mega-inner:after,.t3-megamenu .mega-group:before,.t3-megamenu .mega-group:after,.t3-megamenu .mega-group-ct:before,.t3-megamenu .mega-group-ct:after {
+content:" ";
+display:table;
+}
+
+.container:after,.row:after,.form-horizontal .form-group:after,.form-horizontal .control-group:after,.form-actions:after,.btn-toolbar:after,.btn-group-vertical>.btn-group:after,.nav:after,.navbar:after,.navbar-header:after,.navbar-collapse:after,.pager:after,.panel-body:after,.modal-footer:after,.clearfix:after,.pagination:after,.module-ct:after,#searchForm:after,.category-item:after,.newsfeed-category .category li:after,.newsfeed .category li:after,.page-subheader:after,.head-search:after,.t3-footer:after,.t3-footnav:after,.t3-copyright:after,.poweredby:after,.t3-megamenu .mega-inner:after,.t3-megamenu .mega-group:after,.t3-megamenu .mega-group-ct:after {
+clear:both;
+}
+
+
+.copyright {
+background:#303030;
+font-size:13px;
+}
+
+.copyright p {
+text-align:center;
+margin:10px 0;
+}
