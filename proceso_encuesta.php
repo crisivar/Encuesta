@@ -25,7 +25,7 @@ if(isset($_POST['formulario'])){
 		
 			
 	$str = implode(",",$respuesta);
- 	$sql= "INSERT INTO respuestas VALUES(".$str.");"; 
+ 	$sql= "INSERT INTO encuesta VALUES(".$str.");"; 
 
 	mysqli($con, $sql);
 	
